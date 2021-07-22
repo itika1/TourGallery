@@ -1,0 +1,33 @@
+/* use this to put borders around things... */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(56, 55, 55);
+  color: white;
+}
+.crop-img{
+  height:100%;
+  width:100%;
+  padding: 1em 1em 1em 1em;
+  margin: auto auto auto auto;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+#home div{
+  width: 90%;
+  border: 1px solid teal;
+  margin: auto;
+}
+#home div.a{
+  word-wrap: break-word;
+}
+.form{
+  width: 80%;
+  margin: auto auto auto auto;
+  border: 2px solid blue;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+}
